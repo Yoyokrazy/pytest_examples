@@ -5,7 +5,8 @@ def test_single_pytest():
     assert inc_dec.increment(-1) == 2
 	
 class test_class_unittest_combo_file(unittest.TestCase):
-    #This test class is not recognized by the discovery function and that is in line with what currently happens on our repo.
+    # This test class is not recognized by the discovery function
+    # and that is in line with what currently happens on our repo.
 
     def test_combo1_function_unittest(self):
         self.assertEqual(inc_dec.increment(5), 6, "Should be 6")

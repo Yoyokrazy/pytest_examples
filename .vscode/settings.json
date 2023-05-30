@@ -2,6 +2,9 @@
     // python settings
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true,
+    "python.experiments.optInto": [
+        "All"
+    ],
     // test suite args
     "python.testing.unittestArgs": [
         "-v",
